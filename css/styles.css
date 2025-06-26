@@ -13,10 +13,11 @@ main {
 a {
     text-decoration: none;
 }
-ul > li{
+ul, li{
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0;
     
     
 }
@@ -178,14 +179,13 @@ color: #404bbf;
     margin-bottom: 8px;
 }
 
-.box-team:hover,
-.box-team:focus{
-color:  #404bbf;
+.box-team{
+    padding: 32px 0;
 }
+
 .team-list-social{
     display: flex;
-    padding: 32px 0;
-     gap: 24px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     fill: #4d5ae5;
