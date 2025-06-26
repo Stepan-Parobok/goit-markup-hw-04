@@ -58,7 +58,7 @@ img {
         margin-right:  76px;
 }
 
-.site-nav .link{
+.site-nav .header-item{
     font-weight: 500;
         font-size: 16px; 
         line-height: 1.5;
@@ -73,12 +73,12 @@ color: #404bbf;
 .site-nav .link:focus{
     color: #404bbf;
 }
-.studio{
+.page-header .studio{
     position: relative;
     color: #404bbf;
     transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio::after{
+.page-header .studio::after{
     position: absolute;
     display: block;
     content: "";
@@ -120,7 +120,7 @@ color: #404bbf;
 .page-solutions{
     background-color: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/img-background.png);
+    url(../images/img-background.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     max-width: 1440px;
