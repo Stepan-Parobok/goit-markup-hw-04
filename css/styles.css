@@ -190,6 +190,7 @@ color: #404bbf;
     align-items: center;
     fill: #4d5ae5;
     transition: 250ms ease-in-out;
+    
 }
 .team-list-social-item{
     width: 40px;
@@ -417,7 +418,7 @@ header{
     
     }
 .box-title-text{
-    padding: 32px 0 0 0;
+    padding: 32px 0;
 }
 .box-title-text .title{
     text-align: center;
@@ -425,6 +426,7 @@ header{
 }
 .box-title-text .text{
     text-align: center;
+    margin-bottom: 8px;
 }
 .portfolio-box-title-text{
     padding: 32px 16px;
